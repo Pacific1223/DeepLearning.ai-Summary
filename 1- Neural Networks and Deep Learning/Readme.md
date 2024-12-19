@@ -141,7 +141,8 @@ Here are the course summary as its given on the course [link](https://www.course
   - `X(1) is the first input vector`
   - `Y(1) is the first output vector`
   - `X = [x(1) x(2).. x(M)]`
-  - `Y = (y(1) y(2).. y(M))`
+  - `X.shape = (nx,m)`
+  - `Y = (y(1) y(2).. y(M))  // Y.shape (1,m)`
 - We will use python in this course.
 - In NumPy we can make matrices and make operations on them in a fast and reliable time.
 
